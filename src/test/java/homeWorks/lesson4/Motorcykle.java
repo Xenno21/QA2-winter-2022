@@ -4,7 +4,7 @@ public class Motorcykle {
     private String name;
     private Integer model;
     private Double engineDisplacement;
-    private String engineType;
+    private char engineType;
     private Double tankVolume ;
 
     public String getName() {
@@ -31,11 +31,11 @@ public class Motorcykle {
         this.engineDisplacement = engineDisplacement;
     }
 
-    public String getEngineType() {
+    public char getEngineType() {
         return engineType;
     }
 
-    public void setEngineType(String engineType) {
+    public void setEngineType(char engineType) {
         this.engineType = engineType;
     }
 

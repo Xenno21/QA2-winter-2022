@@ -1,16 +1,16 @@
 package homeWorks.lesson4;
 
 public class Banknote {
-    private String currencySymbol;
+    private char currencySymbol;
     private String currencyName ;
     private int currencyVolume;
     private double priceInEuro;
 
-    public String getCurrencySymbol() {
+    public char getCurrencySymbol() {
         return currencySymbol;
     }
 
-    public void setCurrencySymbol(String currencySymbol) {
+    public void setCurrencySymbol(char currencySymbol) {
         this.currencySymbol = currencySymbol;
     }
 

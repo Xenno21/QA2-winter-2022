@@ -2,7 +2,7 @@ package homeWorks.lesson4;
 
 public class Human {
    private  String name;
-   private String Gender;
+   private char Gender;
    private Integer age;
    private Float growth;
 
@@ -14,11 +14,11 @@ public class Human {
       this.name = name;
    }
 
-   public String getGender() {
+   public char getGender() {
       return Gender;
    }
 
-   public void setGender(String gender) {
+   public void setGender(char gender) {
       Gender = gender;
    }
 

@@ -2,7 +2,7 @@ package homeWorks.lesson4;
 
 public class House {
     private String address;
-    private int nomberOfFloors1;
+    private int nomberOfFloors;
     private double floorSpace;
     private String vallColor;
     private float height;
@@ -16,11 +16,11 @@ public class House {
     }
 
     public int getNomberOfFloors1() {
-        return nomberOfFloors1;
+        return nomberOfFloors;
     }
 
     public void setNomberOfFloors1(int nomberOfFloors1) {
-        this.nomberOfFloors1 = nomberOfFloors1;
+        this.nomberOfFloors = nomberOfFloors1;
     }
 
     public double getFloorSpace() {
